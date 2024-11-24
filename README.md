@@ -12,3 +12,31 @@
 4. To send JSON data to the server, a `POST` request should be made to `http://localhost:6969/push?key=tahsin`.
 5. The `key` parameter can be set to any desired value.
 6. In scenarios where multiple browsers are monitoring the same `key`, and only one piece of data for that `key` is sent to the server, a single browser will receive the data. The others will continue waiting for additional data or will time out and receive a `null` response.
+
+
+Clone the repo first
+```
+git clone git@github.com:mohsinian-reborn/backend-challenge-polling-server.git
+
+```
+
+cd into the directory
+
+```
+cd backend-challenge-polling-server
+
+```
+
+Install npm packages
+
+```
+npm install
+
+```
+
+Start the project
+
+```
+node index.mjs
+
+```
